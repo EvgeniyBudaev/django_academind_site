@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block title %}
+  The Post Title
+{% endblock %}
+
+
+{% block css_files %}
+  <link rel="stylesheet" href="{% static 'blog/post-detail.css' %}">
+  <link rel="stylesheet" href="{% static 'blog/all-posts.css' %}">
+{% endblock %}
+
+
+{% block content %}
+  <section id="summary">
+    <h2>Post Title</h2>
+    <article>
+      <img src="{% static 'blog/images/mountains.jpeg' %}" alt="Post Title">
+      <address>By Evgeniy</address>
+      <div>
+        Last updated on
+        <time>Marth 10th</time>
+      </div>
+    </article>
+  </section>
+
+  <main>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate dicta eaque ex libero magnam molestiae
+      quaerat
+      quis quod reiciendis rem.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate dicta eaque ex libero magnam molestiae
+      quaerat
+      quis quod reiciendis rem.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate dicta eaque ex libero magnam molestiae
+      quaerat
+      quis quod reiciendis rem.
+    </p>
+  </main>
+{% endblock %}
