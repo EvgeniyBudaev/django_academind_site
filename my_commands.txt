@@ -1,9 +1,12 @@
 # создание нового проекта
 django-admin startproject django_course # monthly_challenges
+
 # создание нового приложения
 python manage.py startapp challenges
+
 # запуск сервера
 python manage.py runserver
+
 # форматирование кода
 # на mac option + command + L
 # на windows ctrl + alt + I
