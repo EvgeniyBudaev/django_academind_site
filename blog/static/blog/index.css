@@ -60,6 +60,7 @@
 
 #latest-posts ul li a {
   text-decoration: none;
+  text-align: center;
 }
 
 #latest-posts ul li a h2 {
@@ -70,6 +71,16 @@
 #latest-posts ul li a p {
   font-size: 1.5rem;
   color: #353535;
+}
+
+#latest-posts ul li a img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 
 #about {
