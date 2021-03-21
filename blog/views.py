@@ -7,7 +7,7 @@ all_posts = [
     "image": "mountains.jpeg",
     "author": 'Evgeniy',
     "date": date(2021, 3, 15),
-    "title:": 'Mountain Hakking',
+    "title:": 'Mountain Hiking',
     "excerpt": "There's nothing like the views you get when hiking in the mountains!",
     "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate dicta eaque ex libero magnam molestiae quaerat quis quod reiciendis rem."
   },
