@@ -11,4 +11,11 @@ python manage.py runserver
 # на mac option + command + L
 # на windows ctrl + alt + I
 
+# DB
+python manage.py makemigrations
+python manage.py migrate
+
 # Admin
+python manage.py createsuperuser
+name: admin
+password: admin
