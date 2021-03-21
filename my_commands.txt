@@ -10,3 +10,5 @@ python manage.py runserver
 # Форматирование кода
 # на mac option + command + L
 # на windows ctrl + alt + I
+
+# Admin
