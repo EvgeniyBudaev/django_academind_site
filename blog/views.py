@@ -76,8 +76,6 @@ class SinglePostView(View):
     return render(request, "blog/post-detail.html", context)
 
 
-
-
 # def post_detail(request, slug):
 #   # identified_post = Post.objects.get(slug=slug)
 #   identified_post = get_object_or_404(Post, slug=slug)
@@ -85,3 +83,8 @@ class SinglePostView(View):
 #     "post": identified_post,
 #     "post_tags": identified_post.tags.all(),
 #   })
+
+
+class ReadLaterView(View):
+  def post(self, request):
+    pass
