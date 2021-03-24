@@ -22,3 +22,10 @@ password: admin
 
 # Установки
 pip install pillow
+
+#
+python manage.py shell
+from blog.models import Comment
+Comment.objects.all()[0].post.title
+Comment.objects.all()[0].post.user_name
+Comment.objects.all()[0].post.text
